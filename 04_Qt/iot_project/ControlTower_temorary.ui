@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>332</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="LC_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>271</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+    </font>
+   </property>
+   <property name="title">
+    <string>Lamp Control</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+   </property>
+   <widget class="QSplitter" name="splitter_16">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_6">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="Street_label">
+      <property name="text">
+       <string>Street</string>
+      </property>
+     </widget>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QSlider" name="Street_horizontalSlider">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_7">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="Apt2_label">
+       <property name="text">
+        <string>Apartment101</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Apt2_pushButton">
+       <property name="text">
+        <string>Button1</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QSplitter" name="splitter_5">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QLabel" name="Apt1_label">
+       <property name="text">
+        <string>Apartment102</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Apt1_pushButton">
+       <property name="text">
+        <string>Button2</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="DI_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Discomfort Index </string>
+   </property>
+   <widget class="QSplitter" name="splitter_21">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="Gled_label">
+      <property name="text">
+       <string>G_LED</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Gled_checkBox">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="Yled_label">
+      <property name="text">
+       <string>Y_LED</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Yled_checkBox">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_20">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="Rled_label">
+      <property name="text">
+       <string>R_LED</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Rled_checkBox">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="GPS_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>201</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GPS</string>
+   </property>
+   <widget class="QSplitter" name="splitter_19">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>32</y>
+      <width>160</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_17">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="BL_label">
+      <property name="text">
+       <string>Bus Location</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="BL_lineEdit"/>
+    </widget>
+    <widget class="QSplitter" name="splitter_18">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="GTL_label">
+      <property name="text">
+       <string>Garbage Truck Location</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="GTL_lineEdit"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="PI_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>251</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Park Information</string>
+   </property>
+   <widget class="QSplitter" name="splitter_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>232</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_10">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="Clock_label">
+      <property name="text">
+       <string>Clock</string>
+      </property>
+     </widget>
+     <widget class="QSplitter" name="splitter_8">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+      <widget class="QLCDNumber" name="Clock_lcdNumber">
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="midLineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>5</number>
+       </property>
+       <property name="value" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+       <property name="intValue" stdset="0">
+        <number>0</number>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_11">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="TCC_label">
+      <property name="text">
+       <string>Trash Can Condtion</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="TCC_progressBar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="BI_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>201</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Bus Information</string>
+   </property>
+   <widget class="QSplitter" name="splitter_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLabel" name="BusAutoDoor_label">
+     <property name="text">
+      <string>BusStop AutoDoor</string>
+     </property>
+    </widget>
+    <widget class="QSplitter" name="splitter_9">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QPushButton" name="Close_pushButton">
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Open_pushButton">
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="EI_groupBox">
+   <property name="geometry">
+    <rect>
+     <x>483</x>
+     <y>170</y>
+     <width>171</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Extra Information</string>
+   </property>
+   <widget class="QSplitter" name="splitter_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLabel" name="SM_label">
+     <property name="text">
+      <string>Speed Measurement</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SM_lineEdit"/>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>Street_horizontalSlider</tabstop>
+  <tabstop>dateTimeEdit</tabstop>
+  <tabstop>SM_lineEdit</tabstop>
+  <tabstop>BL_lineEdit</tabstop>
+  <tabstop>GTL_lineEdit</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
