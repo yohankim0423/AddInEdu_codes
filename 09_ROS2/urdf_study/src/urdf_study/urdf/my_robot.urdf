@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot name="my_robot">
+	...
+	all the rest of the tags
+	...
+</robot>
